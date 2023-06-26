@@ -2,16 +2,24 @@ body {
     font-family: 'Bangers', cursive;;
 }
 
+.heading {
+    font-size: 50px;
+    text-align: center;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    grid-gap: 5px;
-    width: 10%;
+    grid-gap: 10px;
+    width: 30%;
+    margin: 0 auto;
+    
   }
   
   .item {
-    border: 1px solid black;
     height: 80px;
     width: 80px;
     border-radius: 10%;
-  }
+    background-color: beige;
+    border: 2px solid greenyellow;
+}
