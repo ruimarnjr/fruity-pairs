@@ -2,3 +2,16 @@ body {
     font-family: 'Bangers', cursive;;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 5px;
+    width: 10%;
+  }
+  
+  .item {
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    border-radius: 10%;
+  }
