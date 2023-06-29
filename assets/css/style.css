@@ -6,6 +6,7 @@
 
 body {
     height: 100vh;
+    background: #fafafa;
     font-family: 'Bangers', cursive;;
 }
 
@@ -13,20 +14,35 @@ body {
     font-size: 50px;
     text-align: center;
 }
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    grid-gap: 10px;
-    width: 30%;
-    margin: 0 auto;
-    
+ 
+  .memory-game {
+    width: 350px;
+    height: 280px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
   }
+
+  .memory-card {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+  }
+
+  .memory-card:active {
+      transform: scale(0.97);
+      transition: transform .2s;
+    }
   
-  .item {
-    height: 80px;
-    width: 80px;
-    border-radius: 10%;
-    background-color: beige;
-    border: 2px solid greenyellow;
-}
+  .front-face,
+  .back-face {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    border: 2px solid #E63946;
+    border-radius: 10px;
+    background: #C3E6CB;
+  }
