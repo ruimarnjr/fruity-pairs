@@ -60,3 +60,30 @@ function resetBoard() {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+// Get the modal element
+const modal = document.getElementById('howToPlayModal');
+
+// Get the button that opens the modal
+const button = document.getElementById('howToPlayButton');
+
+// Get the <span> element that closes the modal
+const closeBtn = document.getElementsByClassName('close')[0];
+
+// Function to open the modal
+function openModal() {
+  modal.style.display = 'block';
+}
+
+// Function to close the modal
+function closeModal() {
+  modal.style.display = 'none';
+}
+
+// Event listener for button click
+button.addEventListener('click', openModal);
+
+// Event listener for close button click
+closeBtn.addEventListener('click', closeModal);
+
+
