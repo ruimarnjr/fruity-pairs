@@ -65,10 +65,13 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 const modal = document.getElementById('howToPlayModal');
 
 // Get the button that opens the modal
-const button = document.getElementById('howToPlayButton');
+const howToPlayButton = document.getElementById('howToPlayButton');
 
 // Get the <span> element that closes the modal
 const closeBtn = document.getElementsByClassName('close')[0];
+
+// Get the reset button
+const resetButton = document.getElementById('resetButton');
 
 // Function to open the modal
 function openModal() {
@@ -80,10 +83,23 @@ function closeModal() {
   modal.style.display = 'none';
 }
 
-// Event listener for button click
-button.addEventListener('click', openModal);
+// Function to reset the game
+function resetGame() {
+  // Reset any game-related logic or data here
+  // For example, you can reset card positions, scores, timers, etc.
+  cards.forEach(card => {
+    card.classList.remove('flip');
+    card.addEventListener('click', flipCard);
+  });
+  resetBoard();
+  shuffleCards();
+}
+
+// Event listener for how to play button click
+howToPlayButton.addEventListener('click', openModal);
 
 // Event listener for close button click
 closeBtn.addEventListener('click', closeModal);
 
-
+// Event listener for reset button click
+resetButton.addEventListener('click', resetGame);
