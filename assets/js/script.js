@@ -25,6 +25,9 @@ function flipCard() {
 
   // Check for a match
   checkForMatch();
+
+  // Increment moves
+  incrementMoves();
 }
 
 function checkForMatch() {
