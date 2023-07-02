@@ -18,14 +18,14 @@ body {
     font-size: 60px;
     text-align: center;
     margin-top: 20px;
-    color: black;
+    color: #E63946;
     letter-spacing: 5px;
 }
 
 .game-info {
   text-align: center;
   font-size: 30px;
-  color: black;
+  color: #E63946;
 }
 
 .timer {
@@ -90,6 +90,7 @@ body {
     background-color: #C3E6CB;
     border-radius: 5px;
     border: 2px solid #E63946;
+    color: #E63946
   }
 
   .modal {
