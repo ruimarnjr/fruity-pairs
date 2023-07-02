@@ -1,8 +1,10 @@
 const cards = document.querySelectorAll('.memory-card');
-
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
+let moves = 0;
+let timer = null;
+let startTime = null;
 
 function flipCard() {
   if (lockBoard) return;
@@ -11,15 +13,17 @@ function flipCard() {
   this.classList.add('flip');
 
   if (!hasFlippedCard) {
-    // first click
+    // First card flip
     hasFlippedCard = true;
     firstCard = this;
+    startTimer(); // Start the timer when the first card is flipped
     return;
   }
 
-  // second click
+  // Second card flip
   secondCard = this;
 
+  // Check for a match
   checkForMatch();
 }
 
@@ -52,14 +56,64 @@ function resetBoard() {
   [firstCard, secondCard] = [null, null];
 }
 
-(function shuffle() {
+function shuffleCards() {
   cards.forEach(card => {
     let randomPos = Math.floor(Math.random() * 12);
     card.style.order = randomPos;
   });
+}
+
+(function initializeGame() {
+  shuffleCards();
+  cards.forEach(card => {
+    card.addEventListener('click', flipCard);
+  });
 })();
 
-cards.forEach(card => card.addEventListener('click', flipCard));
+function startTimer() {
+  if (timer) return; // Don't start a new timer if one is already running
+
+  startTime = Date.now();
+
+  timer = setInterval(() => {
+    let elapsedTime = Date.now() - startTime;
+    let formattedTime = formatTime(elapsedTime);
+    document.querySelector('.timer').textContent = `Time: ${formattedTime}`;
+  }, 1000);
+}
+
+function stopTimer() {
+  clearInterval(timer);
+  timer = null; // Reset the timer variable
+}
+
+function incrementMoves() {
+  moves++;
+  document.querySelector('.move-count').textContent = `Moves: ${moves}`;
+}
+
+function resetGame() {
+  stopTimer();
+  moves = 0;
+  document.querySelector('.move-count').textContent = 'Moves: 0';
+  document.querySelector('.timer').textContent = 'Time: 0:00';
+  cards.forEach(card => {
+    card.classList.remove('flip');
+    card.addEventListener('click', flipCard);
+  });
+  resetBoard();
+  shuffleCards();
+}
+
+function formatTime(time) {
+  let minutes = Math.floor(time / 60000);
+  let seconds = Math.floor((time % 60000) / 1000);
+  return `${minutes}:${seconds.toString().padStart(2, '0')}`;
+}
+
+// Event listeners
+
+resetButton.addEventListener('click', resetGame);
 
 // Get the modal element
 const modal = document.getElementById('howToPlayModal');
@@ -69,9 +123,6 @@ const howToPlayButton = document.getElementById('howToPlayButton');
 
 // Get the <span> element that closes the modal
 const closeBtn = document.getElementsByClassName('close')[0];
-
-// Get the reset button
-const resetButton = document.getElementById('resetButton');
 
 // Function to open the modal
 function openModal() {
@@ -83,23 +134,11 @@ function closeModal() {
   modal.style.display = 'none';
 }
 
-// Function to reset the game
-function resetGame() {
-  // Reset any game-related logic or data here
-  // For example, you can reset card positions, scores, timers, etc.
-  cards.forEach(card => {
-    card.classList.remove('flip');
-    card.addEventListener('click', flipCard);
-  });
-  resetBoard();
-  shuffleCards();
-}
-
-// Event listener for how to play button click
+// Event listeners for modal
 howToPlayButton.addEventListener('click', openModal);
-
-// Event listener for close button click
 closeBtn.addEventListener('click', closeModal);
-
-// Event listener for reset button click
-resetButton.addEventListener('click', resetGame);
+window.addEventListener('click', function (event) {
+  if (event.target == modal) {
+    closeModal();
+  }
+});
