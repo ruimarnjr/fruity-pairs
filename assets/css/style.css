@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     background: #fafafa;
-    font-family: 'Bangers', cursive;;
+    font-family: 'Bangers', cursive;
 }
 
 .heading {
@@ -58,6 +58,15 @@ body {
   
   .front-face {
     transform: rotateY(180deg);
+  }
+
+  .btnStyle {
+    font-family: 'Bangers', cursive;
+    font-size: 100%;
+    padding: 15px;
+    background-color: #C3E6CB;
+    border-radius: 5px;
+    border: 2px solid #E63946;
   }
 
   .modal {
