@@ -8,11 +8,28 @@ body {
     height: 100vh;
     background: #fafafa;
     font-family: 'Bangers', cursive;
+    background-image: url(../images/mixed-fruits.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .heading {
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
+    margin-top: 20px;
+    color: black;
+    letter-spacing: 5px;
+}
+
+.game-info {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.timer {
+  margin-right: 50px;
 }
  
   .memory-game {
@@ -22,7 +39,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
-    margin-top: 3%;
+    margin-top: 1%;
   }
 
   .memory-card {
