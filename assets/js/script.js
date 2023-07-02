@@ -41,6 +41,11 @@ function disableCards() {
   secondCard.removeEventListener('click', flipCard);
 
   resetBoard();
+
+  if (document.querySelectorAll('.flip').length === cards.length) {
+    stopTimer();
+    displayGameResult();
+}
 }
 
 function unflipCards() {
@@ -145,3 +150,32 @@ window.addEventListener('click', function (event) {
     closeModal();
   }
 });
+
+
+function displayGameResult() {
+  let elapsedTime = Date.now() - startTime;
+  let formattedTime = formatTime(elapsedTime);
+
+  let modal = document.getElementById('winModal');
+  let movesText = document.getElementById('winMoves');
+  let timeText = document.getElementById('winTime');
+
+  movesText.textContent = `Moves: ${moves}`;
+  timeText.textContent = `Time: ${formattedTime}`;
+
+  modal.style.display = 'block';
+
+  const closeBtn = modal.querySelector('.close');
+
+  function closeModal() {
+    modal.style.display = 'none';
+  }
+
+  closeBtn.addEventListener('click', closeModal);
+
+  window.addEventListener('click', function(event) {
+    if (event.target === modal) {
+      closeModal();
+    }
+  });
+}

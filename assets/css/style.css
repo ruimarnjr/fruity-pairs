@@ -94,6 +94,12 @@ body {
     text-decoration: none;
     cursor: pointer;
   }
+
+  #winMoves,
+#winTime {
+  font-weight: bold;
+  color: #007bff;
+}
   
   
   
