@@ -22,6 +22,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
+    margin-top: 3%;
   }
 
   .memory-card {
@@ -58,6 +59,11 @@ body {
   
   .front-face {
     transform: rotateY(180deg);
+  }
+
+  .buttons {
+    text-align: center;
+    margin-top: 10%;
   }
 
   .btnStyle {
