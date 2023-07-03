@@ -39,7 +39,12 @@ function flipCard() {
 function checkForMatch() {
   let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
 
-  isMatch ? disableCards() : unflipCards();
+  if (isMatch) {
+    disableCards();
+  } else {
+    unflipCards();
+  }
+  
 }
 
 /* disable cards code taken form https://marina-ferreira.github.io/tutorials/js/memory-game/ */
@@ -134,7 +139,7 @@ function formatTime(time) {
 }
 
 // Event listeners
-
+const resetButton = document.getElementById('resetButton');
 resetButton.addEventListener('click', resetGame);
 
 // Get the modal element
