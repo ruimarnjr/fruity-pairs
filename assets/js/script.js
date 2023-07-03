@@ -6,6 +6,8 @@ let moves = 0;
 let timer = null;
 let startTime = null;
 
+/* flip card code taken form https://marina-ferreira.github.io/tutorials/js/memory-game/ */
+
 function flipCard() {
   if (lockBoard) return;
   if (this === firstCard) return;
@@ -30,11 +32,15 @@ function flipCard() {
   incrementMoves();
 }
 
+/* check for match code taken form https://marina-ferreira.github.io/tutorials/js/memory-game/ */
+
 function checkForMatch() {
   let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
 
   isMatch ? disableCards() : unflipCards();
 }
+
+/* disable cards code taken form https://marina-ferreira.github.io/tutorials/js/memory-game/ */
 
 function disableCards() {
   firstCard.removeEventListener('click', flipCard);
@@ -48,6 +54,8 @@ function disableCards() {
 }
 }
 
+/* unflip cards code taken form https://marina-ferreira.github.io/tutorials/js/memory-game/ */
+
 function unflipCards() {
   lockBoard = true;
 
@@ -58,6 +66,8 @@ function unflipCards() {
     resetBoard();
   }, 1000);
 }
+
+/* reset board and shuffle cards code taken form https://marina-ferreira.github.io/tutorials/js/memory-game/ */
 
 function resetBoard() {
   [hasFlippedCard, lockBoard] = [false, false];
@@ -78,8 +88,10 @@ function shuffleCards() {
   });
 })();
 
+/* start timer */
+
 function startTimer() {
-  if (timer) return; // Don't start a new timer if one is already running
+  if (timer) return; //
 
   startTime = Date.now();
 
@@ -92,7 +104,7 @@ function startTimer() {
 
 function stopTimer() {
   clearInterval(timer);
-  timer = null; // Reset the timer variable
+  timer = null;
 }
 
 function incrementMoves() {
