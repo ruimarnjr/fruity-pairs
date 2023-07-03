@@ -151,7 +151,6 @@ window.addEventListener('click', function (event) {
   }
 });
 
-
 function displayGameResult() {
   let elapsedTime = Date.now() - startTime;
   let formattedTime = formatTime(elapsedTime);
