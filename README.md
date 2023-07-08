@@ -66,6 +66,12 @@ In summary, as a user of the Fruity Pairs memory game, you can expect a visually
 
 ![Win game](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/wingame-message.png)
 
+## Technologies Used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML5) - To create a website
+- [CSS](https://en.wikipedia.org/wiki/CSS) - To style the website.
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - The create the logic of the game 
+
 ## Testing 
 
 - I have played the game several times and I can assure that all the features implemented work. 
