@@ -105,7 +105,7 @@ function startTimer() {
   timer = setInterval(() => {
     let elapsedTime = Date.now() - startTime;
     let formattedTime = formatTime(elapsedTime);
-    document.querySelector('.timer').textContent = `Time: ${formattedTime}`;
+    document.querySelector('.timer').textContent = `Timer: ${formattedTime}`;
   }, 1000);
 }
 
