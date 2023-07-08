@@ -16,31 +16,41 @@ In this section, you should go over the different parts of your project, and des
 
   - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
-![Logo](media/love_maths_logo.png)
+![Heading](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/logo.png)
+
+- __Timer and Moves__
+
+![Timer and Moves](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/times-and-moves.png)
+![Timer and Moves running](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/timesandmoves-running.png)
 
 - __The Game Area__
 
   - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
   - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
 
-![Game](media/love_maths_icons.png)
+![Back Face](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/back-face.png)
+![Front Face](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/front-face.png)
 
-- __The Question section__
+- __The Buttons Section__
 
   - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
   - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
 
-![Question](media/love_maths_question.png)
+![Buttons](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/instruction-buttons.png)
 
-- __The Score Area__
+- __How To Play Message__
 
   - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
 
-![score](media/love_maths_answer.png)
+![Instructions](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/howtoplay-instructions.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
+- __The Win Game Message__
+
+![Win game](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/wingame-message.png)
 
 ### Features Left to Implement
 
@@ -60,16 +70,31 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+
+    ![Html Validator](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/html-validator.png)
+
 - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+    ![Css Validator](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/css-validator.png)
+
 - JavaScript
     - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
       - The following metrics were returned: 
-      - There are 11 functions in this file.
-      - Function with the largest signature takes 2 arguments, while the median is 0.
-      - Largest function has 10 statements in it, while the median is 3.
-      - The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+      - There are 23 functions in this file.
+      - Function with the largest signature take 1 arguments, while the median is 0.
+      - Largest function has 12 statements in it, while the median is 2.
+      - The most complex function has a cyclomatic complexity value of 4 while the median is 1.
+
+    ![Js Hint Validator](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/jshint-validator.png)  
+
+    ### Lighthouse Validator Testing 
+
+- I can confirm that that colors and fonts chosen are easy to read and understand by using the Lighthouse Validator.
+
+    ![Lighthouse](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/lighthouse.png)  
+
 
 ### Unfixed Bugs
 
@@ -77,19 +102,37 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - From the source section drop-down menu, select the Main/Master Branch
+  - Once the main/master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-maths/
+The live link can be found here [The Book Squad](https://ruimarnjr.github.io/fruity-pairs/)
+
+The Repository can be found here [Repo Fruity Pairs](https://github.com/ruimarnjr/fruity-pairs)
+
+### Forking
+
+- Go to the GitHub repository that you want to fork. This is the repository that you wish to create a personal copy of.
+- On the top-right corner of the repository page, you'll find a button labeled "Fork". Click on the "Fork" button to initiate the forking process. This will create a duplicate copy of the repository under your own GitHub account.
+- GitHub will process the forking request, creating a separate copy of the repository within your account. Once the forking process is complete, you will be redirected to the newly created forked repository.
+
+### Cloning 
+
+- On the GitHub repository page, click on the green "Code" button located towards the top-right of the page. This will display a dropdown menu. Click on the clipboard icon to copy the repository's URL to your clipboard.
+- Open your preferred terminal or command prompt on your local machine. Ensure you have Git installed and configured properly.
+- Use the cd command in the terminal to navigate to the directory where you want to clone the repository. For example, if you want to clone the repository into your "Documents" folder, you would use the command: cd Documents.
+- In the terminal, use the git clone command followed by the repository URL you copied in step 1.
+- Press Enter to execute the git clone command. Git will connect to the remote repository and download a copy of the entire repository, including all its files, commit history, and branches, to your local machine.
+- Once the cloning process is complete, you will see a message indicating that the repository has been successfully cloned to your local machine. You can now navigate to the cloned repository using the terminal.
 
 
 ## Credits 
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+
+https://stackoverflow.com/questions/2570972/css-font-border
+https://marina-ferreira.github.io/tutorials/js/memory-game/
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
@@ -104,28 +147,8 @@ You can break the credits section up into Content and Media, depending on what y
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
 
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
-
-
-https://stackoverflow.com/questions/2570972/css-font-border
 https://freesvg.org/
-https://marina-ferreira.github.io/tutorials/js/memory-game/
 https://www.pexels.com/
+
+
+
