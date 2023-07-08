@@ -1,81 +1,86 @@
 # Fruity Pairs 
 
+## [Live WebSite](https://ruimarnjr.github.io/fruity-pairs/)
+
 Fruity Pairs is an exciting memory game with a fruity theme created using the power of JavaScript. It's a captivating game that challenges players to find matching pairs of delicious fruits. As you delve into the game, you'll be mesmerized by the colorful illustrations of various fruits like strawberries, oranges, watermelons, and pineapples.
 
 This game was meticulously crafted with JavaScript to ensure smooth and immersive gameplay. The interactive features allow players to flip over cards, revealing the hidden fruits, and test their memory by finding matching pairs. With each level, the difficulty increases, keeping you engaged and entertained. So, get ready to exercise your brain, have a blast, and enjoy the fruity fun of Fruity Pairs, the JavaScript-powered memory game that will keep you hooked!
 
 ![Responsive Mockup](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/responsive-mockup.png)
 
+## UX
+
+As a user of the Fruity Pairs memory game, you can expect an engaging and enjoyable experience that will keep you entertained and challenged. Here are some key points from a user perspective:
+
+- As a player, you will have the opportunity to explore a colorful and vibrant world of fruits. The delightful illustrations and attention to detail will captivate your attention and immerse you in the fruity theme.
+
+- Engage your memory skills by flipping over the fruit cards and finding matching pairs. The gameplay mechanics are designed to be intuitive and easy to understand, allowing you to focus on the excitement of uncovering the hidden fruits.
+
+- Enjoy the flexibility of the game, allowing you to play at your own pace and on various devices. Whether you prefer quick gaming sessions on your mobile device or immersive gameplay on a larger screen, Fruity Pairs caters to your preferences.
+
+In summary, as a user of the Fruity Pairs memory game, you can expect a visually appealing, engaging, and flexible experience that challenges your memory skills while immersing you in a delightful world of fruits. Get ready to have a fantastic time exploring, matching, and celebrating your successes in this fruit-filled adventure!
+
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- __The Heading__
 
-### Existing Features
-
-- __The Love Maths Logo and Heading__
-
-  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+  - Featured at the center of the page, the heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
 ![Heading](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/logo.png)
 
 - __Timer and Moves__
 
-![Timer and Moves](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/times-and-moves.png)
-![Timer and Moves running](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/timesandmoves-running.png)
+  - Below the heading we have our timer and moves section. The timer allows you to keep track of how long you take to finish the game and it starts once you click on a card for the first time. While the "moves" part shows you the amount of moves you needed to finish the game, once you click on 2 cards, it's consider a move.
+
+  - ![Timer and Moves](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/times-and-moves.png)
+  - ![Timer and Moves running](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/timesandmoves-running.png)
 
 - __The Game Area__
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
+  - This section will allow the user to play the memory game. The user will be able to easily see icons for the back face at first, and once he flips the cards, he'll be able to see the front face.
 
-![Back Face](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/back-face.png)
-![Front Face](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/front-face.png)
+  - The cards in the game grid are randomly positioned each time the user plays the game.
+
+  - ![Back Face](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/back-face.png)
+  - ![Front Face](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/front-face.png)
 
 - __The Buttons Section__
 
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
+  - The How To Play button when clicked shows the game instructions.
+  - The Reset Game button when clickd resets the game straight away.
 
 ![Buttons](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/instruction-buttons.png)
 
 - __How To Play Message__
 
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
+  - This message pops up when the How to Play button is clicked. It shows the user the game instructions.
 
 ![Instructions](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/howtoplay-instructions.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 - __The Win Game Message__
 
+- This message is displayed when the player successfully matches all the pairs of cards and wins the game.
+
 ![Win game](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/wingame-message.png)
-
-### Features Left to Implement
-
-- Another feature idea
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- I have played the game several times and I can assure that all the features implemented work. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- I tested this website in browsers such as Chrome, Mozilla Firefox, Microsoft Edge and Safari and it worked in all of them.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+- I tested the page for large, medium and small screen sizes and I confirm that the text is readable and the images display perfectly.
 
 ### Validator Testing 
 
 - HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fruimarnjr.github.io%2Ffruity-pairs%2F)
 
     ![Html Validator](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/html-validator.png)
 
 - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fruimarnjr.github.io%2Ffruity-pairs%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
     ![Css Validator](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/css-validator.png)
 
@@ -96,9 +101,11 @@ If this section grows too long, you may want to split it off into a separate fil
     ![Lighthouse](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/lighthouse.png)  
 
 
-### Unfixed Bugs
+### Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- Syntax in JS - fixed
+- Buttons Box size - fixed
+- Buttons Box size in media queries for large screens - fixed
 
 ## Deployment
 
@@ -107,7 +114,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
   - From the source section drop-down menu, select the Main/Master Branch
   - Once the main/master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here [The Book Squad](https://ruimarnjr.github.io/fruity-pairs/)
+The live link can be found here [Fruity Pairs](https://ruimarnjr.github.io/fruity-pairs/)
 
 The Repository can be found here [Repo Fruity Pairs](https://github.com/ruimarnjr/fruity-pairs)
 
@@ -129,26 +136,20 @@ The Repository can be found here [Repo Fruity Pairs](https://github.com/ruimarnj
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+- [Font Border](https://stackoverflow.com/questions/2570972/css-font-border) - Used to crete a font border in the heading and timer and moves.
+- [Memory Game Tutorial](https://marina-ferreira.github.io/tutorials/js/memory-game/) - Some code was taken and addapted from this amazing memory game tutorial.
+- [Memory Game](https://moirahartigan.github.io/Portfolio-2---Alien-Memory-Game/) - The desing of Fruity Pairs was based on this memory game live project.
 
-https://stackoverflow.com/questions/2570972/css-font-border
-https://marina-ferreira.github.io/tutorials/js/memory-game/
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Condensed:wght@300&display=swap)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used on the back face and front face of the cards and from [Free Svg](https://freesvg.org/)
+- The background image used was taken from [Pexels](https://www.pexels.com/)
 
-https://freesvg.org/
-https://www.pexels.com/
 
 
 
