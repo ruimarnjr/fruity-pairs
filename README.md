@@ -1,8 +1,8 @@
 # Fruity Pairs 
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+Fruity Pairs is an exciting memory game with a fruity theme created using the power of JavaScript. It's a captivating game that challenges players to find matching pairs of delicious fruits. As you delve into the game, you'll be mesmerized by the colorful illustrations of various fruits like strawberries, oranges, watermelons, and pineapples.
 
-For example, Love Maths is a site that hopes to demonstrate how pure JavaScript works in a real-world context. The site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also maths. Love Maths is a fully responsive JavaScript maths game that will allow users to add, subtract, multiply and divide numbers. 
+This game was meticulously crafted with JavaScript to ensure smooth and immersive gameplay. The interactive features allow players to flip over cards, revealing the hidden fruits, and test their memory by finding matching pairs. With each level, the difficulty increases, keeping you engaged and entertained. So, get ready to exercise your brain, have a blast, and enjoy the fruity fun of Fruity Pairs, the JavaScript-powered memory game that will keep you hooked!
 
 ![Responsice Mockup](media/love_maths_mockup.png)
 
@@ -123,3 +123,9 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+
+
+https://stackoverflow.com/questions/2570972/css-font-border
+https://freesvg.org/
+https://marina-ferreira.github.io/tutorials/js/memory-game/
+https://www.pexels.com/
