@@ -4,7 +4,7 @@ Fruity Pairs is an exciting memory game with a fruity theme created using the po
 
 This game was meticulously crafted with JavaScript to ensure smooth and immersive gameplay. The interactive features allow players to flip over cards, revealing the hidden fruits, and test their memory by finding matching pairs. With each level, the difficulty increases, keeping you engaged and entertained. So, get ready to exercise your brain, have a blast, and enjoy the fruity fun of Fruity Pairs, the JavaScript-powered memory game that will keep you hooked!
 
-![Responsive Mockup](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/responsive-mockup.jpg)
+![Responsive Mockup](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/responsive-mockup.png)
 
 ## Features 
 
