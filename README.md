@@ -32,8 +32,9 @@ In summary, as a user of the Fruity Pairs memory game, you can expect a visually
 
   - Below the heading we have our timer and moves section. The timer allows you to keep track of how long you take to finish the game and it starts once you click on a card for the first time. While the "moves" part shows you the amount of moves you needed to finish the game, once you click on 2 cards, it's consider a move.
 
-  - ![Timer and Moves](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/times-and-moves.png)
-  - ![Timer and Moves running](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/timesandmoves-running.png)
+![Timer and Moves](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/times-and-moves.png)
+
+![Timer and Moves running](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/timesandmoves-running.png)
 
 - __The Game Area__
 
@@ -41,8 +42,9 @@ In summary, as a user of the Fruity Pairs memory game, you can expect a visually
 
   - The cards in the game grid are randomly positioned each time the user plays the game.
 
-  - ![Back Face](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/back-face.png)
-  - ![Front Face](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/front-face.png)
+![Back Face](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/back-face.png)
+
+![Front Face](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/front-face.png)
 
 - __The Buttons Section__
 
@@ -147,7 +149,7 @@ The Repository can be found here [Repo Fruity Pairs](https://github.com/ruimarnj
 
 ### Media
 
-- The photos used on the back face and front face of the cards and from [Free Svg](https://freesvg.org/)
+- The photos used on the back face and front face of the cards are from [Free Svg](https://freesvg.org/)
 - The background image used was taken from [Pexels](https://www.pexels.com/)
 
 
