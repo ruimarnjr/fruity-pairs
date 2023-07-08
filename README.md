@@ -4,7 +4,7 @@
 
 Fruity Pairs is an exciting memory game with a fruity theme created using the power of JavaScript. It's a captivating game that challenges players to find matching pairs of delicious fruits. As you delve into the game, you'll be mesmerized by the colorful illustrations of various fruits like strawberries, oranges, watermelons, and pineapples.
 
-This game was meticulously crafted with JavaScript to ensure smooth and immersive gameplay. The interactive features allow players to flip over cards, revealing the hidden fruits, and test their memory by finding matching pairs. With each level, the difficulty increases, keeping you engaged and entertained. So, get ready to exercise your brain, have a blast, and enjoy the fruity fun of Fruity Pairs, the JavaScript-powered memory game that will keep you hooked!
+This game was meticulously crafted with JavaScript to ensure smooth and immersive gameplay. The interactive features allow players to flip over cards, revealing the hidden fruits, and test their memory by finding matching pairs. So, get ready to exercise your brain, have a blast, and enjoy the fruity fun of Fruity Pairs, the JavaScript-powered memory game that will keep you hooked!
 
 ![Responsive Mockup](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/responsive-mockup.png)
 
@@ -49,7 +49,7 @@ In summary, as a user of the Fruity Pairs memory game, you can expect a visually
 - __The Buttons Section__
 
   - The How To Play button when clicked shows the game instructions.
-  - The Reset Game button when clickd resets the game straight away.
+  - The Reset Game button when clicked resets the game straight away.
 
 ![Buttons](https://github.com/ruimarnjr/fruity-pairs/blob/main/assets/images/instruction-buttons.png)
 
@@ -144,9 +144,9 @@ The Repository can be found here [Repo Fruity Pairs](https://github.com/ruimarnj
 
 ## Credits 
 
-- [Font Border](https://stackoverflow.com/questions/2570972/css-font-border) - Used to crete a font border in the heading and timer and moves.
-- [Memory Game Tutorial](https://marina-ferreira.github.io/tutorials/js/memory-game/) - Some code was taken and addapted from this amazing memory game tutorial.
-- [Memory Game](https://moirahartigan.github.io/Portfolio-2---Alien-Memory-Game/) - The desing of Fruity Pairs was based on this memory game live project.
+- [Font Border](https://stackoverflow.com/questions/2570972/css-font-border) - Used to create a font border in the heading and timer and moves.
+- [Memory Game Tutorial](https://marina-ferreira.github.io/tutorials/js/memory-game/) - The code to create the game was taken and addapted from this amazing memory game tutorial.
+- [Memory Game](https://moirahartigan.github.io/Portfolio-2---Alien-Memory-Game/) - The design of Fruity Pairs was based on this memory game live project.
 
 
 ### Content 
